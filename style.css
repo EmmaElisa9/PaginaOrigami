@@ -1,0 +1,53 @@
+
+*{
+    background-color: rgb(130, 248, 238);
+}
+
+.Origamis{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+
+}
+
+.Origamis img{
+    border:solid;
+    flood-color: blueviolet;
+
+    background-blend-mode: multiply;
+    padding-top: 0;
+   text-align: center; 
+   display: flex;  
+   justify-content: center; 
+  margin-left: 80px;
+  margin-top: 20px;
+}
+
+.OCamaleon,.OPaloma,.OOso,.OOsoPanda,.ORana,.OConejo{
+    margin-top: 50px;
+    border-radius: 50px;
+    background-color: white;
+    width:470px;
+    height:415px;
+    justify-content: space-between;
+}
+
+h3,h1,h4{
+    text-align: center;
+}
+
+.paraMas{
+        background-image: url("back.jpg");
+        height: 300px;
+        margin-top: 2px;
+        background-size:cover;
+        font-size: large;
+        text-align: center;
+        font-weight: 700;
+        color :mediumvioletred;
+        padding-top: 30px;
+        display : flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        font-family: fantext-align;
+}
