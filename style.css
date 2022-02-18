@@ -33,28 +33,20 @@
     justify-content: space-between;
 }
 
-h3,h1,h4{
+h3,h1,h4,a{
     text-align: center;
+    background-image: url(back.jpg);
+}
+
+.inicio{
+    background-image: url(back.jpg);
+}
+
+.final{
+    background-image: url(back.jpg);
 }
 
 .Origamis h3{
     margin-left: 50px;
     margin-right: 50px;
-    background-color: #ffffff;
-}
-
-.inicio h1,h4{
-    background-image: url(back.jpg);
-}
-
-.inicio{  
-    background-image: url(back.jpg);
-}
-
-.final h3,a{
-    background-image: url(back.jpg);
-}
-
-.final{  
-    background-image: url(back.jpg);
 }
