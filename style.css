@@ -1,7 +1,8 @@
 
 *{
-    background-color: rgb(130, 248, 238);
+    background-color: #98DCDB
 }
+
 
 .Origamis{
     display:flex;
@@ -12,7 +13,7 @@
 
 .Origamis img{
     border:solid;
-    flood-color: blueviolet;
+    flood-color: #9A4DF3;
 
     background-blend-mode: multiply;
     padding-top: 0;
@@ -26,7 +27,7 @@
 .OCamaleon,.OPaloma,.OOso,.OOsoPanda,.ORana,.OConejo{
     margin-top: 50px;
     border-radius: 50px;
-    background-color: white;
+    background-color: #ffffff;
     width:470px;
     height:415px;
     justify-content: space-between;
@@ -36,18 +37,24 @@ h3,h1,h4{
     text-align: center;
 }
 
-.paraMas{
-        background-image: url("back.jpg");
-        height: 300px;
-        margin-top: 2px;
-        background-size:cover;
-        font-size: large;
-        text-align: center;
-        font-weight: 700;
-        color :mediumvioletred;
-        padding-top: 30px;
-        display : flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        font-family: fantext-align;
+.Origamis h3{
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #ffffff;
+}
+
+.inicio h1,h4{
+    background-image: url(back.jpg);
+}
+
+.inicio{  
+    background-image: url(back.jpg);
+}
+
+.final h3,a{
+    background-image: url(back.jpg);
+}
+
+.final{  
+    background-image: url(back.jpg);
 }
