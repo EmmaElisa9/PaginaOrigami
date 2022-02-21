@@ -18,7 +18,7 @@
     background-blend-mode: multiply;
     padding-top: 0;
    text-align: center; 
-   display: flex;  
+   display: flex;
    justify-content: center; 
   margin-left: 80px;
   margin-top: 20px;
@@ -33,9 +33,22 @@
     justify-content: space-between;
 }
 
-h3,h1,h4,a{
+.OCamaleon:hover,.OPaloma:hover,.OOso:hover,.OOsoPanda:hover,.ORana:hover,.OConejo:hover{
+    transform: scale(1.1);
+}
+
+
+h3,h1,a{
     text-align: center;
     background-image: url(back.jpg);
+}
+
+.final a:link{
+    color: #ffffff
+}
+
+.final a:visited{
+    color: #000000
 }
 
 .inicio{
